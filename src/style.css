@@ -1,12 +1,12 @@
-.field-block {
-  margin-bottom: 20px;
-}
-
-label {
+.field {
   display: block;
   margin-bottom: 10px;
 }
 
-.field-block :last-child {
+.field-block {
+  margin-bottom: 20px;
+}
+
+.field-block > .field:last-child {
   margin-bottom: 0;
 }
