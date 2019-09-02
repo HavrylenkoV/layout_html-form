@@ -1,20 +1,12 @@
-.block-field {
+.field-block {
   margin-bottom: 20px;
 }
 
 label {
-  margin-bottom: 10px;
   display: block;
+  margin-bottom: 10px;
 }
 
-.inline-oriented {
-  display: inline;
-}
-
-.block-field :last-child {
+.field-block :last-child {
   margin-bottom: 0;
-}
-
-button {
-  margin-top: 20px;
 }
